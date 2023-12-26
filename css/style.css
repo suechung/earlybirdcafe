@@ -1,0 +1,333 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Space+Mono&family=Spline+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  font-family: "Spline Sans", sans-serif;
+  color: #777;
+  line-height: 1.7;
+  background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+  color: #222;
+}
+
+a {
+  color: #414e57;
+  text-decoration: none;
+  transition: all 0.4s;
+  font-weight: 400;
+  font-size: 0.9em;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  color: #c4b9ad;
+}
+
+img {
+  min-width: 100%;
+}
+
+.navbar {
+  background-color: #ede5d0 !important;
+  box-shadow: 2px 2px 5px 1px rgba(56, 56, 56, 0.2);
+  height: 120px;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+#home {
+  height: 700px;
+  padding-top: 280px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  background-image: url("../images/cafe.png");
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(105, 105, 105, 0.3);
+}
+
+#home .sign {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 2px 2px 5px #383838;
+  font-family: Arvo;
+}
+
+.btn {
+  border-radius: 0;
+  padding: 10px 30px;
+}
+
+.btn-brand {
+  background-color: #dd0808;
+  color: #fff;
+  font-size: 0.9em;
+  font-weight: 500;
+  border-color: #ff0000;
+  font-family: "BrandonText", sans-serif;
+}
+
+.btn-brand:hover {
+  background-color: #ff4141;
+  border-color: #ff3131;
+  color: #fff;
+}
+
+.gallery {
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  color: #414e57;
+  padding-top: 50px;
+  text-align: center;
+}
+
+hr {
+  width: 30%;
+  padding-bottom: 20px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 40px;
+  height: 70px;
+  background-color: rgb(82, 82, 82);
+  margin: auto;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: rgb(61, 61, 61);
+}
+
+#about {
+  height: 1000px;
+  padding-top: 180px;
+  text-align: center;
+  margin: auto;
+  width: 80%;
+}
+
+#about h2 {
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  color: #414e57;
+}
+#about p {
+  padding-top: 20px;
+  color: #606d77;
+  font-family: "Hind", sans-serif;
+}
+
+#about .col-sm-9 img {
+  padding-top: 100px;
+}
+
+#menu h2 {
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 400;
+  color: #55626b;
+}
+
+#menu .container {
+  width: 400px;
+  padding-bottom: 100px;
+}
+
+.food-item {
+  font-family: sans-serif;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#menu p {
+  max-width: 500px;
+  text-align: center;
+  font-size: 13px;
+  font-style: italic;
+  padding-bottom: 10px;
+}
+
+#contact {
+  height: 1000px;
+  padding-top: 180px;
+}
+
+#contact h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Arvo", serif;
+  font-weight: 500;
+  color: #414e57;
+}
+
+#contact .form-control:focus {
+  box-shadow: none;
+}
+
+#contact input.form-control {
+  height: 47px;
+}
+
+.food img {
+  width: 33%;
+  height: 300px;
+  float: left;
+  min-width: 33%;
+  object-fit: cover;
+}
+
+.food {
+  padding-bottom: 150px;
+}
+
+.price,
+.pricetwo {
+  float: right;
+  font-family: sans-serif;
+  font-weight: 300;
+  padding-right: 20px;
+  color: rgb(36, 35, 35);
+}
+
+#space {
+  width: 10px !important;
+  height: 10px;
+  color: pink;
+}
+
+hr {
+  width: 350px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding-top: 40px;
+  padding-bottom: 30px;
+  font-size: 0.8em;
+}
+
+.footer-top {
+  margin-bottom: 30px;
+}
+
+footer p,
+footer a {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.2em;
+}
+
+footer .social-links a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+footer .social-links i {
+  font-size: 24px;
+}
+
+footer img {
+  max-width: 175px;
+}
+
+.footer-bottom {
+  padding-top: 30px;
+  border-top: 1px solid rgba(255, 255, 255, 0.4);
+  font-size: 0.8em;
+}
+
+.footer-bottom a {
+  color: #d3b596;
+  letter-spacing: 1px;
+  padding-left: 2px;
+}
+.footer-bottom a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media screen and (max-width: 1000px) {
+  .navbar-brand img {
+    width: 120px !important;
+    height: 100px !important;
+  }
+
+  .fa.fa-bars {
+    color: rgb(73, 73, 73);
+    display: inline !important;
+  }
+
+  .navbar-collapse {
+    display: flex;
+  }
+
+  .navbar-nav {
+    left: auto !important;
+    margin-right: 0 !important;
+  }
+
+  .nav-item {
+    background-color: #ede5d0;
+    width: 150px;
+  }
+  .nav-item a {
+    float: right;
+  }
+
+  .nav-item a:hover {
+    float: right;
+    color: #c4b9ad !important;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #about .col-sm-9 {
+    padding-left: 60px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fa.fa-bars {
+    color: rgb(73, 73, 73);
+    display: inline !important;
+  }
+
+  #about {
+    height: 1250px;
+  }
+  #about .col-sm-9 {
+    padding-top: 20px;
+  }
+
+  #about .col-sm-9 img {
+    padding-bottom: 20px;
+    width: 450px !important;
+    height: 80%;
+  }
+
+  #about .col-sm-3 img {
+    min-width: auto;
+  }
+
+  .food img {
+    width: 33%;
+    height: 100px;
+    float: left;
+    min-width: 33%;
+    object-fit: cover;
+  }
+}
